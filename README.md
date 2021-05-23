@@ -2,11 +2,17 @@
 Datenbanken-Projekt DHBW Stuttgart | Entwicklung einer Chat-App mit Python und Redis
 
 ## Installation
+### Python: Umgebung & Pakete
 Die Applikation ist unter Ubuntu 18.04 entstanden und konnte auch nur hier getestet werden. Python sollte als virtual environment (venv) ausgeführt werden, wobei der Interpreter der Python Version 3.6 entsprechen sollte.
 
 Die benötigten Python Bibliotheken finden Sie in der Datei "requirements.txt". Falls Sie nicht wissen, wie man eine requirements-Datei automatisiert einliest, können Sie hier weitere Informationen erhalten: https://stackoverflow.com/questions/7225900/how-can-i-install-packages-using-pip-according-to-the-requirements-txt-file-from.
 
 Hinweis: Als Entwicklungsumgebung verwendete ich Pycharm. Pycharm bietet neben einfachen Möglichkeiten zur Erstellung eines virtual environments auch Funktionen mit welchen sich dei Requirements automatisch installieren lassen.
+
+### Redis
+Um Redis zu installieren, folgen Sie den Angaben auf der Website: https://redis.io/topics/quickstart.
+
+Achtung: Um die Applikation oder die Tests auszuführen, muss im Hintergrund ein Standard-Redis-Server laufen. Diesen starten Sie im Terminal über den Befehl "redis-server".
 
 ## Automatisierte Test
 Als Test-Framework wählte ich Pytest aus. Pycharm bietet die Möglichkeit das Framework manuell auszuwählen. Gehen Sie hierzu auf "File > Settings > Tools > Python Intergrated Tools > Testing" und wählen Sie im Drop-Down Menü "pytest" aus.
