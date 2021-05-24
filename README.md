@@ -1,3 +1,5 @@
+Matrikelnummer: 5426070
+
 # ChatApp
 Datenbanken-Projekt DHBW Stuttgart | Entwicklung einer Chat-App mit Python und Redis
 
